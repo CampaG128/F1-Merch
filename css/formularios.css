@@ -1,0 +1,55 @@
+.fondo{
+    background-color: rgb(0, 0, 0,0.4);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.fondo-contenedor{
+    display: grid;
+    text-align: center;
+    padding: 1%;
+    background-color: rgb(161, 41, 39);
+    margin: -5% 40% 0px 40%;
+}
+
+.contenedor-label{
+    color: white;
+    font-family: monospace;
+    font-size: 100%;
+    margin: 4% 0px;
+}
+
+.contenedor-btn{
+    font-family: monospace;
+    font-size: 100%;
+    margin: 4% 0px;
+    color: white;
+    background-color: rgb(161, 41, 39);
+    border: 1px solid white;
+    padding: 3%;
+    transition: .4s;
+}
+
+.ocultar{
+    opacity: 0;
+    pointer-events: none;
+}
+
+.contenedor-btn:hover{
+    background-color: white;
+    color: rgb(161, 41, 39);
+    border: 1px solid rgb(161, 41, 39);
+}
+
+.contenedor-input{
+    font-family: monospace;
+    color: white;
+    outline: none;
+    background-color: rgb(161, 41, 39);
+    border: none;
+    border-bottom: 1px solid white;
+    text-overflow: clip;
+}
